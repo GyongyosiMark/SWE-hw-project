@@ -1,0 +1,114 @@
+{
+  "name" : "North-West Corner Method",
+  "shops" : [ {
+    "name" : "S1",
+    "demand" : 10
+  }, {
+    "name" : "S2",
+    "demand" : 20
+  }, {
+    "name" : "S3",
+    "demand" : 30
+  } ],
+  "warehouses" : [ {
+    "name" : "W1",
+    "supply" : 30
+  }, {
+    "name" : "W2",
+    "supply" : 20
+  }, {
+    "name" : "W3",
+    "supply" : 10
+  } ],
+  "costs" : [ {
+    "shop" : {
+      "name" : "S1",
+      "demand" : 10
+    },
+    "warehouse" : {
+      "name" : "W1",
+      "supply" : 30
+    },
+    "value" : 6
+  }, {
+    "shop" : {
+      "name" : "S1",
+      "demand" : 10
+    },
+    "warehouse" : {
+      "name" : "W2",
+      "supply" : 20
+    },
+    "value" : 9
+  }, {
+    "shop" : {
+      "name" : "S1",
+      "demand" : 10
+    },
+    "warehouse" : {
+      "name" : "W3",
+      "supply" : 10
+    },
+    "value" : 9
+  }, {
+    "shop" : {
+      "name" : "S2",
+      "demand" : 20
+    },
+    "warehouse" : {
+      "name" : "W1",
+      "supply" : 30
+    },
+    "value" : 4
+  }, {
+    "shop" : {
+      "name" : "S2",
+      "demand" : 20
+    },
+    "warehouse" : {
+      "name" : "W2",
+      "supply" : 20
+    },
+    "value" : 10
+  }, {
+    "shop" : {
+      "name" : "S2",
+      "demand" : 20
+    },
+    "warehouse" : {
+      "name" : "W3",
+      "supply" : 10
+    },
+    "value" : 10
+  }, {
+    "shop" : {
+      "name" : "S3",
+      "demand" : 30
+    },
+    "warehouse" : {
+      "name" : "W1",
+      "supply" : 30
+    },
+    "value" : 6
+  }, {
+    "shop" : {
+      "name" : "S3",
+      "demand" : 30
+    },
+    "warehouse" : {
+      "name" : "W2",
+      "supply" : 20
+    },
+    "value" : 9
+  }, {
+    "shop" : {
+      "name" : "S3",
+      "demand" : 30
+    },
+    "warehouse" : {
+      "name" : "W3",
+      "supply" : 10
+    },
+    "value" : 6
+  } ]
+}
